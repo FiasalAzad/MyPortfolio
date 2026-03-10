@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1f2937, #4b5563);
+    color: #f9fafb;
+    padding-top: 40px;
+}
+
+/* Main Heading */
+
+h1{
+    color: #60a5fa;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-decoration: solid;
+    padding-left: 500px;
+}
+
+/* Section Headings */
+
+h2{
+    color: #93c5fd;
+    margin-top: 25px;
+    padding-left: 500px;
+    
+}
+body{
+    background-image: url(bg.png);
+    background-size: 40%;
+}
+.profile{
+width:200px;
+height:200px;
+object-fit:cover;
+object-position:top;}
+/* Paragraph */
+
+p{
+    font-size: 17px;
+    line-height: 1.6;
+    padding-left: 500px;
+
+}
+
+/* Lists */
+
+ul, ol{
+    margin-left: 25px;
+padding-left: 500px;
+}
+img{
+    padding-right: 300px;
+    
+}
+img{
+float:right;
+
+}
+li{
+    margin-bottom: 8px;
+}
+
+/* Section Box */
+
+section{
+    background-color: rgba(255,255,255,0.08);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 650px;
+}section{
+opacity:0;
+transform:translateY(50px);
+transition:all 0.6s ease;
+}
+section:hover{
+transform:scale(1.05);
+}
+
+
+.image img{
+width:250px;
+border-radius:10px;
+}
+nav{
+background-color: rgb(102, 63, 5);
+padding: 15px;
+color: rgba(209, 162, 162, 0.815);
+}
+nav{
+    padding-left: 1000px;
+
+}
+nav ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+text-decoration: underline;
+}
+
+nav li{
+margin: 0 20px;
+}
+
+nav a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+nav a:hover{
+color: yellow;
+}
